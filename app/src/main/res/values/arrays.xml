@@ -7,30 +7,32 @@
          3. Add a label entry (use @string or a literal like "Türkçe") -->
     <string-array name="supported_language_codes">
         <item>system</item>
-        <item>en</item>
+        <item>ca</item>
         <item>de</item>
-        <item>tr</item>
-        <item>fr</item>
-        <item>fi</item>
-        <item>fil-rPH</item>
-        <item>pt-rBR</item>
-        <item>jp</item>
-        <item>zh-rCN</item>
+        <item>en</item>
         <item>es</item>
+        <item>fr</item>
+        <item>fil-rPH</item>
+        <item>tr</item>
+        <item>pt-rBR</item>
+        <item>fi</item>
+        <item>zh-rCN</item>
+        <item>jp</item>
     </string-array>
 
     <string-array name="supported_language_labels">
         <item>@string/radio_language_system_default</item>
-        <item>@string/radio_language_english</item>
-        <item>@string/radio_language_german</item>
-        <item>@string/radio_language_turkish</item>
-        <item>@string/radio_language_french</item>
-        <item>@string/radio_language_fi</item>
+        <item>@string/radio_language_ca</item>
+        <item>@string/radio_language_de</item>
+        <item>@string/radio_language_en</item>
+        <item>@string/radio_language_es</item>
+        <item>@string/radio_language_fr</item>
         <item>@string/radio_language_fil_rPH</item>
+        <item>@string/radio_language_tr</item>
         <item>@string/radio_language_pt_rBR</item>
-        <item>@string/radio_language_jp</item>
+        <item>@string/radio_language_fi</item>
         <item>@string/radio_language_zh_rCN</item>
-        <item>@string/radio_language_spanish</item>
+        <item>@string/radio_language_jp</item>
     </string-array>
 
     <string-array name="wallpaper_screen_opacity_strength">

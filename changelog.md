@@ -1,5 +1,12 @@
 # Changelog
 
+## 55
+
+- Prevent unwanted permissions to ever be added by third party dependencies
+- New checkboxes
+- Add Català
+- Organized language list
+
 ## 54
 
 - LTS version

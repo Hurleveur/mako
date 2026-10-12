@@ -93,15 +93,14 @@
 
                 <com.rama.bohio.widgets.WdCheckbox
                     android:id="@+id/auto_collapse_groups"
-    		        android:text="@string/auto_collapse_groups_label"
-    		        style="@style/Checkbox" />
+                    android:text="@string/auto_collapse_groups_label"
+                    style="@style/Checkbox" />
 
                 <View style="@style/Separator" />
 
                 <LinearLayout
                     android:id="@+id/groups"
                     android:focusableInTouchMode="true"
-                    android:orientation="vertical"
                     style="@style/VerticalListDivided_BG2" />
 
                 <Button
