@@ -1,5 +1,13 @@
 # Changelog
 
+## 56
+
+- Add Galego
+- Add Zero apps catalogue. the Zero series is a bunch of Java-based apps divided into two variants:
+  Forever, supporting API levels 5 through 37, and Zero, a minimalist variant supporting API levels
+  21 through 37, with APKs weighing around 100 KB. The catalogue includes Suri, which replaces and
+  improves upon the previous double-tap-to-lock-screen functionality.
+
 ## 55
 
 - Prevent unwanted permissions to ever be added by third party dependencies
