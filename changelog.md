@@ -1,5 +1,10 @@
 # Changelog
 
+## 56
+
+- Add Galego
+- Add Zero apps catalogue
+
 ## 55
 
 - Prevent unwanted permissions to ever be added by third party dependencies
