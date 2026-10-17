@@ -14,8 +14,8 @@
         <item>fr</item>
         <item>fil-rPH</item>
         <item>gl</item>
-        <item>tr</item>
         <item>pt-rBR</item>
+        <item>tr</item>
         <item>fi</item>
         <item>zh-rCN</item>
         <item>jp</item>
@@ -30,8 +30,8 @@
         <item>@string/radio_language_fr</item>
         <item>@string/radio_language_fil_rPH</item>
         <item>@string/radio_language_gl</item>
-        <item>@string/radio_language_tr</item>
         <item>@string/radio_language_pt_rBR</item>
+        <item>@string/radio_language_tr</item>
         <item>@string/radio_language_fi</item>
         <item>@string/radio_language_zh_rCN</item>
         <item>@string/radio_language_jp</item>
@@ -56,5 +56,29 @@
         <item>@string/app_trackers_desc</item>
         <item>@string/app_offline_desc</item>
         <item>@string/license_gpl3</item>
+    </string-array>
+
+    <string-array name="app_font_size_steps">
+        <item>16</item>
+        <item>20</item>
+        <item>24</item>
+        <item>28</item>
+        <item>32</item>
+        <item>36</item>
+        <item>40</item>
+        <item>44</item>
+        <item>48</item>
+    </string-array>
+
+    <string-array name="app_row_spacing_steps">
+        <item>0</item>
+        <item>4</item>
+        <item>8</item>
+        <item>12</item>
+        <item>16</item>
+        <item>20</item>
+        <item>24</item>
+        <item>28</item>
+        <item>32</item>
     </string-array>
 </resources>

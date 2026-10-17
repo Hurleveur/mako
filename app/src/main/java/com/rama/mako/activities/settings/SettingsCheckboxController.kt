@@ -86,11 +86,22 @@ class SettingsCheckboxController(private val activity: SettingsActivity) {
                 activity.applyRotationLock(isChecked)
             }
         )
+
+        bindWdCheckbox(
+            R.id.nav_bar_transparent,
+            PrefKeys.SYSTEM_NAV_BAR_TRANSPARENT,
+            false,
+            onChange = { isChecked ->
+                activity.applyNavBarContrastEnforced(!isChecked)
+            }
+        )
+
         bindWdCheckbox(R.id.show_profile_indicator, FileKeys.APPS_PROFILE_INDICATOR, true)
         bindWdCheckbox(R.id.multi_column, FileKeys.APPS_MULTI_COLUMN, false)
         bindWdCheckbox(R.id.show_api_indicators, FileKeys.APPS_SHOW_API_INDICATORS, false)
         bindWdCheckbox(R.id.show_app_size, FileKeys.APPS_SHOW_SIZE, false)
         bindWdCheckbox(R.id.show_app_shortcuts, FileKeys.APPS_SHOW_SHORTCUTS, false)
+        bindWdCheckbox(R.id.rtl_row, FileKeys.APPS_RTL_ROW, false)
 
         bindWdCheckbox(
             R.id.lock_settings,
