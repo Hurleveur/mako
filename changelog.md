@@ -1,5 +1,10 @@
 # Changelog
 
+## 57
+
+- Add apps custom font size
+- Add custom space between rows
+
 ## 56
 
 - Add Galego
